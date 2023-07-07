@@ -27,6 +27,7 @@ public class GamePanel extends JPanel implements ActionListener {
     boolean running = false;
     Timer timer;
     Random random;
+    public final int tonicnierobi = 0;
 
     GamePanel(){
         random = new Random();
